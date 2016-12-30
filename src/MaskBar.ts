@@ -1,5 +1,6 @@
 import LoadingBar from './LoadingBar';
 import {BarPropsInter} from './Bar';
+import '../css/loadingbar-mask.less';
 
 export default class MaskBar extends LoadingBar{
 

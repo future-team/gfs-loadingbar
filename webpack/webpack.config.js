@@ -8,6 +8,7 @@ var ent = {
     example: [path.join(process.cwd(), 'example/src/index.js')]
 };
 ent[config.name] = [path.join(process.cwd(), 'src/index.ts')];
+ent[config.name + '.react'] = [path.join(process.cwd(), 'src/index.react.ts')];
 module.exports = {
     entry: ent,
     resolve: {

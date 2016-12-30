@@ -1,4 +1,3 @@
-import '../../css/index.less'
 import MaskBar from '../../src/MaskBar'
 import LoadingBar from '../../src/LoadingBar'
 import append from './react'

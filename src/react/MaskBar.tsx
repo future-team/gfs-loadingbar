@@ -2,6 +2,8 @@ import * as React from 'react';
 import {Component,PropTypes} from 'react';
 import LoadingBarComponent,{LoadingBar} from './LoadingBar';
 
+import '../../css/loadingbar-mask.less';
+
 export default class MaskBarComponent extends LoadingBarComponent {
     
     constructor(props){

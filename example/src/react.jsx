@@ -1,9 +1,10 @@
 import React, { Component } from 'react'
 import ReactDom from 'react-dom'
 
-import LoadingBarComponent,{LoadingBar} from '../../src/react/LoadingBar'
-import {fetching} from '../../src/react/fetching'
-import FetchMiddleware from '../../src/react/FetchMiddleware'
+// import LoadingBarComponent,{LoadingBar} from '../../src/react/LoadingBar'
+// import {fetching} from '../../src/react/fetching'
+// import FetchMiddleware from '../../src/react/FetchMiddleware'
+import {LoadingBarComponent,fetching,FetchMiddleware,LoadingBar} from '../../dist/gfs-loadingbar.react';
 
 import { Provider,connect } from 'react-redux'
 import { createStore,applyMiddleware,combineReducers } from 'redux'

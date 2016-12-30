@@ -1,4 +1,5 @@
 import Bar,{BarPropsInter} from './Bar';
+import '../css/loadingbar.less';
 
 export default class LoadingBar extends Bar{
     timeoutObj:any;

@@ -1,6 +1,7 @@
 import * as React from 'react';
 import {Component,PropTypes} from 'react';
 import Bar,{BarPropsInter} from '../Bar';
+import '../../css/loadingbar.less';
 
 var fetching = 0;
 
