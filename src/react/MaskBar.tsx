@@ -16,7 +16,7 @@ export default class MaskBarComponent extends LoadingBarComponent {
                 display:this.state.display
             }}>
                 <div className="gfs-content">
-                    {this.props.children || '加载中...'}
+                    {this.props['message'] || '加载中...'}
                 </div>
             </div>
         );
