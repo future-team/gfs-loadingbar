@@ -46,3 +46,4 @@ lib/
 dist/
 src/**/*.js
 src/**/*.map
+.vscode/
