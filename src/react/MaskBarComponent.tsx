@@ -1,6 +1,6 @@
 import * as React from 'react';
 import {Component,PropTypes} from 'react';
-import LoadingBarComponent,{LoadingBar} from './LoadingBar';
+import LoadingBarComponent from './LoadingBarComponent';
 
 import '../../css/loadingbar-mask.less';
 

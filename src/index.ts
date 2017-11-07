@@ -1,4 +1,4 @@
-import '../css/index.less';
+// import '../css/index.less';
 
 export {default as LoadingBar} from './LoadingBar';
 
